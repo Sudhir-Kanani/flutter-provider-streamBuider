@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_provider/pages/HomeScreen.dart';
 import 'package:flutter_provider/streamBuilder/streamBuilder.dart';
 
+import 'isolate/isolate.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,7 +21,8 @@ class MyApp extends StatelessWidget {
           useMaterial3: true
       ),
       // home:const HomeScreen(), //for Provider
-      home:streamBuilder(), //for streamBuilder
+      // home:streamBuilder(), //for streamBuilder
+      home:isolate(), //for isolate
     );
   }
 }
