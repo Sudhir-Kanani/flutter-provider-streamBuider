@@ -1,4 +1,4 @@
-# flutter provider & Stream Bulder
+# flutter provider & Stream Builder
 
 A new Flutter project.
 
